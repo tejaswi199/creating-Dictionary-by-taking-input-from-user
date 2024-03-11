@@ -1,2 +1,6 @@
-# creating-Dictionary-by-taking-input-from-user
-creating Dictionary by taking input from user
+n=int(input())
+d={}
+for i in range(n):
+  k,v=map(int,input().split())
+  d[k]=v
+print(d)
